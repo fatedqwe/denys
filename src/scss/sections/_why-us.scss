@@ -1,0 +1,67 @@
+.why-us {
+    padding: 215px 0 80px;
+    background-color: $second-background-color;
+        
+      &_boxes{
+        padding-top: 50px;
+        display: flex;
+        margin: 0 -15px;
+        flex-wrap: wrap;
+        row-gap: 15px;
+      }
+      &_box-item{
+        flex: 1 0 25%;
+        padding: 0 15px;
+        min-width: 230px;  
+      }
+    }
+  
+.item-1header {
+
+    padding: 30px 40px;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    height: 100%;
+    
+    cursor: default;
+    transition: all .5s ease;
+        cursor: default;
+        &:hover{
+            background-color: $secondary-color-1;
+            .item-1header_text,
+            .item-1header_dscrp{
+            color: $white;
+            }
+            .item-1header_svg-image svg path{
+            fill: $white;
+            }
+        }
+    
+    &_svg-image{
+        margin-bottom: 10px;
+    }
+    &_text{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+        color: $text-color;
+        flex-grow: 1;
+        margin-bottom: 10px;
+        white-space: nowrap;
+        color: $text-color;
+    }
+    &_dscrp{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        white-space: nowrap;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: $second-text-color;
+        
+    }
+}

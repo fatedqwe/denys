@@ -1,299 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <title>Webpack Boilerplate Starter Template</title>
-    <meta name="description" content="Simple starter webpack 5 project template boilerplate supporting SASS/PostCSS, Babel ES7, browser syncing, code linting. Easy project setup having multiple features and developer friendly tools.">
-    <meta name="keywords" content="webpack, webpack-configuration, template, boilerplate, setup, html, css, sass, javascript">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Plamen Nikolov, WeAreAthlon">
-  </head>
-  <body>
-    <header>
-      <h1>Webpack 5 Template Boilerplate</h1>
-      <small>Maintained by <a href="https://www.weareathlon.com/" target="_blank" rel="noopener">WeAreAthlon</a>. Source code availalbe on <a href="https://github.com/WeAreAthlon/frontend-webpack-boilerplate/" target="_blank"><img src="images/content/github.png" alt="GitHub logo"> GitHub</a>.</small>
-      <div class="badges">
-        <a href="https://github.com/WeAreAthlon/frontend-webpack-boilerplate/" target="_blank" rel="noopener"><img src="https://img.shields.io/maintenance/yes/2022?logo=github" alt="Maintenance"></a>
-        <a href="https://webpack.js.org" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/webpack-v5.69.1-green?logo=webpack" alt="Current Webpack Version"></a>
-        <a href="https://app.travis-ci.com/github/WeAreAthlon/frontend-webpack-boilerplate" target="_blank" rel="noopener"><img src="https://app.travis-ci.com/WeAreAthlon/frontend-webpack-boilerplate.svg?branch=master" alt="Build Status"></a>
-        <a href="https://snyk.io/advisor/npm-package/@weareathlon/frontend-webpack-boilerplate" target="_blank" rel="noopener"><img src="https://snyk.io/advisor/npm-package/@weareathlon/frontend-webpack-boilerplate/badge.svg" alt="Snyk.io package health badge"></a>
-        <br>
-        <a href="https://github.com/WeAreAthlon/frontend-webpack-boilerplate/issues" target="_blank" rel="noopener"><img src="https://img.shields.io/github/issues-raw/WeAreAthlon/frontend-webpack-boilerplate" alt="GitHub Issues"></a>
-        <a href="https://snyk.io/test/github/WeAreAthlon/frontend-webpack-boilerplate?targetFile=package.json" target="_blank" rel="noopener"><img src="https://snyk.io/test/github/WeAreAthlon/frontend-webpack-boilerplate/badge.svg?targetFile=package.json" alt="Known Vulnerabilities"></a>
-        <a href="https://www.npmjs.com/package/@weareathlon/frontend-webpack-boilerplate" target="_blank" rel="noopener"><img src="https://img.shields.io/npm/dm/@weareathlon/frontend-webpack-boilerplate" alt="npm"></a>
-        <a href="https://github.com/WeAreAthlon/frontend-webpack-boilerplate/blob/master/LICENSE" target="_blank" rel="noopener"><img src="https://img.shields.io/github/license/WeAreAthlon/frontend-webpack-boilerplate" alt="GitHub License"></a>
-      </div>
-      <a href="https://github.com/WeAreAthlon/frontend-webpack-boilerplate" class="github-corner" title="View source on GitHub" aria-label="View source on GitHub">
-        <svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
-          <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
-          <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
-          <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path>
-        </svg>
-      </a>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indicorp Webpack Template</title>
+</head>
+<body>
+    <header class="header-main">
+        <div class="container container--hero">
+            <div class="header-bar">
+                <a href="#" class="header-bar__logo">Indicorp</a>
+                <nav class="header-bar__menu">
+                    <ul class="header-bar__menu-list">
+                        <li class="header-bar__menu-item"><a href="#" class="header-bar__menu-link">Home</a></li>
+                        <li class="header-bar__menu-item"><a href="#" class="header-bar__menu-link">Product</a></li>
+                        <li class="header-bar__menu-item"><a href="#" class="header-bar__menu-link">Pricing</a></li>
+                        <li class="header-bar__menu-item"><a href="#" class="header-bar__menu-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-hero">
+                <h1 class="header-hero__title">Empower your business</h1>
+                <p class="header-hero__descr">We know how large objects will act, but things on a small scale.</p>
+                <a href="#" class="button button--rounded button--primary">Get Quote Now</a>
+                <a href="#" class="button button--rounded button--secondary">Learn More</a>
+            </div>
+            <div class="header-bottom">
+                <div class="header-bottom__items">
+                  <div class="header-bottom__item">
+                    <div class="item-header">
+                      <div class="item-header__img">
+                        <svg width="48" height="48" viewBox="0 0 48 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M42.5886 8.52529H37.519V3.45567C37.519 2.55931 37.1629 1.69966 36.5291 1.06583C35.8952 0.432007 35.0356 0.0759277 34.1392 0.0759277H13.8608C12.9644 0.0759277 12.1047 0.432007 11.4709 1.06583C10.8371 1.69966 10.481 2.55931 10.481 3.45567V8.52529H5.41139C4.06684 8.52529 2.77736 9.05941 1.82662 10.0102C0.875886 10.9609 0.341766 12.2504 0.341766 13.5949V37.2531C0.341766 38.1495 0.697846 39.0092 1.33167 39.643C1.9655 40.2768 2.82515 40.6329 3.72151 40.6329H44.2785C45.1748 40.6329 46.0345 40.2768 46.6683 39.643C47.3021 39.0092 47.6582 38.1495 47.6582 37.2531V13.5949C47.6582 12.2504 47.1241 10.9609 46.1734 10.0102C45.2226 9.05941 43.9331 8.52529 42.5886 8.52529ZM13.8608 3.45567H34.1392V8.52529H13.8608V3.45567ZM44.2785 37.2531H3.72151V22.0443H17.2405V30.4936H30.7595V22.0443H44.2785V37.2531ZM20.6202 22.0443H27.3797V27.1139H20.6202V22.0443ZM3.72151 18.6645V13.5949C3.72151 13.1467 3.89955 12.7169 4.21647 12.4C4.53338 12.0831 4.9632 11.905 5.41139 11.905H42.5886C43.0368 11.905 43.4666 12.0831 43.7835 12.4C44.1004 12.7169 44.2785 13.1467 44.2785 13.5949V18.6645H3.72151Z"
+                            fill="#00A0C1" />
+                        </svg>
+                      </div>
+                      <h3 class="item-header__name">Digital Marketing</h3>
+                      <p class="item-header__descr">We focus on ergonomics and
+                        meeting you where you work.</p>
+                    </div>
+                  </div>
+                  <div class="header-bottom__item">
+                    <div class="item-header">
+                      <div class="item-header__img">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_1_50)">
+                            <path opacity="0.15"
+                              d="M43.65 13.7502H4.35004C4.33204 13.7502 4.32004 13.7621 4.32004 13.7799V19.1851C4.32004 22.7294 7.26003 25.6039 10.878 25.6039C13.32 25.6039 15.45 24.3 16.584 22.3619C16.758 22.0597 17.088 21.87 17.442 21.87C17.796 21.87 18.12 22.0597 18.3 22.3619C19.428 24.3 21.558 25.6039 24 25.6039C26.448 25.6039 28.584 24.2941 29.706 22.3501C29.88 22.0537 30.198 21.87 30.54 21.87H30.576C30.924 21.87 31.236 22.0537 31.41 22.3501C32.538 24.2941 34.674 25.6039 37.122 25.6039C40.74 25.6039 43.68 22.7294 43.68 19.1851V13.7799C43.68 13.7621 43.668 13.7502 43.65 13.7502Z"
+                              fill="#00A0C1" />
+                            <path
+                              d="M46.2 9.48885V1.89659C46.2 0.847537 45.342 0 44.28 0H3.72003C2.65804 0 1.80004 0.847537 1.80004 1.89659V9.48885C0.798037 9.54812 3.71756e-05 10.372 3.71756e-05 11.3795V19.1851C-0.00380525 20.6197 0.290253 22.0398 0.864037 23.3576C1.12204 23.9622 1.44004 24.5311 1.80004 25.0705V45.518C1.80004 46.5612 2.65804 47.4146 3.72003 47.4146H44.28C45.342 47.4146 46.2 46.5671 46.2 45.518V25.0705C46.5657 24.5298 46.879 23.9563 47.136 23.3576C47.706 22.036 48 20.6313 48 19.1851V11.3795C48 10.372 47.202 9.54812 46.2 9.48885ZM6.12003 4.26732H41.88V9.48293H6.12003V4.26732ZM27.84 43.1532H20.16V36.9834H27.84V43.1532ZM41.904 43.1532H31.68V35.0868C31.68 34.0378 30.822 33.1902 29.76 33.1902H18.24C17.178 33.1902 16.32 34.0378 16.32 35.0868V43.1532H6.12003V28.7985C6.29403 28.8814 6.47403 28.9644 6.66003 29.0355C7.99803 29.5927 9.42003 29.8712 10.884 29.8712C12.348 29.8712 13.764 29.5927 15.108 29.0355C15.936 28.6918 16.716 28.2532 17.43 27.7257C17.442 27.7198 17.454 27.7198 17.466 27.7257C18.1822 28.2554 18.9622 28.6954 19.788 29.0355C21.126 29.5927 22.548 29.8712 24.012 29.8712C25.476 29.8712 26.892 29.5927 28.236 29.0355C29.064 28.6918 29.844 28.2532 30.558 27.7257C30.57 27.7198 30.582 27.7198 30.594 27.7257C31.3102 28.2554 32.0902 28.6954 32.916 29.0355C34.254 29.5927 35.676 29.8712 37.14 29.8712C38.604 29.8712 40.02 29.5927 41.364 29.0355C41.544 28.9585 41.724 28.8814 41.904 28.7985V43.1532ZM43.68 19.1851C43.68 22.7294 40.74 25.6039 37.122 25.6039C34.674 25.6039 32.538 24.2941 31.41 22.3501C31.236 22.0537 30.924 21.87 30.576 21.87H30.54C30.198 21.87 29.88 22.0537 29.706 22.3501C29.1304 23.3417 28.2992 24.1652 27.297 24.7367C26.2948 25.3082 25.1572 25.6074 24 25.6039C21.558 25.6039 19.428 24.3 18.3 22.3619C18.12 22.0597 17.796 21.87 17.442 21.87C17.088 21.87 16.758 22.0597 16.584 22.3619C16.005 23.3498 15.1728 24.1695 14.1711 24.7387C13.1694 25.3078 12.0336 25.6062 10.878 25.6039C7.26003 25.6039 4.32003 22.7294 4.32003 19.1851V13.7799C4.32003 13.7621 4.33203 13.7502 4.35003 13.7502H43.65C43.668 13.7502 43.68 13.7621 43.68 13.7799V19.1851Z"
+                              fill="#00A0C1" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1_50">
+                              <rect width="48" height="47.4146" fill="#00A0C1" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </div>
+                      <h3 class="item-header__name">National top 50 firms</h3>
+                      <p class="item-header__descr">Just type what's on your mind
+                        and we'll get you there.</p>
+                    </div>
+                  </div>
+                  <div class="header-bottom__item">
+                    <div class="item-header">
+                      <div class="item-header__img">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="#00A0C1" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_1_57)">
+                            <path d="M29.1419 13.6241H41.1398V17.0695H29.1419V13.6241Z" fill="#00A0C1" />
+                            <path d="M29.1419 22.2375H41.1398V25.6829H29.1419V22.2375Z" fill="#00A0C1" />
+                            <path d="M29.1419 30.8506H41.1398V34.2959H29.1419V30.8506Z" fill="#00A0C1" />
+                            <path
+                              d="M44.5679 5.01111H3.43234C2.52347 5.01202 1.65208 5.3753 1.00941 6.02123C0.366737 6.66715 0.00528678 7.54295 0.00437927 8.45643V39.4643C0.00528678 40.3778 0.366737 41.2536 1.00941 41.8995C1.65208 42.5454 2.52347 42.9087 3.43234 42.9096H44.5679C45.4766 42.9082 46.3477 42.5448 46.9903 41.899C47.6329 41.2532 47.9945 40.3776 47.9958 39.4643V8.45643C47.9949 7.54295 47.6335 6.66715 46.9908 6.02123C46.3481 5.3753 45.4767 5.01202 44.5679 5.01111ZM3.43234 8.45643H22.2861V39.4643H3.43234V8.45643ZM25.7141 39.4643V8.45643H44.5679L44.5713 39.4643H25.7141Z"
+                              fill="#00A0C1" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1_57">
+                              <rect width="48" height="37.92" fill="#00A0C1" transform="translate(0 5)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </div>
+                      <h3 class="item-header__name">Digital Marketing</h3>
+                      <p class="item-header__descr">the quick fox jumps over the
+                        lazy dog</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
     </header>
-    <main>
-      <img src="images/content/header.png" alt="Webpack 5 Template Boilerplate">
-      <h1>Demo page illustrating building of SASS, PostCSS, JavaScript, Fonts, Background Images and Inline Images.</h1>
-      <img src="images/content/logoa.svg" alt="Logo of Athlon" class="logo"> 
-      <h2 id="table-of-contents">Table of Contents</h2>
-      <ul>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#requirements">Requirements</a></li>
-        <li>
-          <a href="#setup">Setup</a>
-          <ul>
-            <li><a href="#installation">Installation</a></li>
-            <li><a href="#define-package-metadata">Define Package Metadata</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#configuration">Configuration</a>
-          <ul>
-            <li><a href="#environment-configuration">Environment Configuration</a></li>
-            <li><a href="#additional-webpack-configuration">Additional webpack configuration</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#development">Development</a>
-          <ul>
-            <li><a href="#assets-source">Assets Source</a></li>
-            <li>
-              <a href="#build-assets">Build Assets</a>
-              <ul>
-                <li><a href="#one-time-build-assets-for-development">One time build assets for development</a></li>
-                <li><a href="#build-assets-and-enable-source-files-watcher">Build assets and enable source files watcher</a></li>
-                <li><a href="#start-a-development-server---reloading-automatically-after-each-file-change">Start a development server - reloading automatically after each file change.</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="#production">Production</a>
-          <ul>
-            <li><a href="#build-assets-1">Build Assets</a></li>
-            <li><a href="#get-built-assets">Get Built Assets</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#run-code-style-linters">Run Code Style Linters</a>
-          <ul>
-            <li><a href="#sass">SASS</a></li>
-            <li><a href="#javascript">JavaScript</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#additional-tools">Additional Tools</a>
-          <ul>
-            <li><a href="#run-assets-bundle-analyzer">Run Assets Bundle Analyzer</a></li>
-            <li><a href="#continuous-integration">Continuous Integration</a></li>
-          </ul>
-        </li>
-      </ul>
-      <h2 id="features">Features</h2>
-      <ul>
-        <li>
-          <strong>Simple setup</strong> instructions
-          <ul>
-            <li>Start development of a project right away with <strong>simple</strong>, <strong>configured</strong>, <strong>linter enabled</strong>, <strong>browser synced</strong> asset files.</li>
-          </ul>
-        </li>
-        <li>
-          Configuration per <strong>environment</strong>
-          <ul>
-            <li><code>development</code> - <a href="https://webpack.js.org/configuration/devtool/"><code>sourcemaps</code></a>, <a href="https://webpack.js.org/configuration/dev-server/"><code>browser synced developmentment server</code></a></li>
-            <li><code>production</code> - <a href="https://webpack.js.org/plugins/terser-webpack-plugin/"><code>minification</code></a>, <a href="https://webpack.js.org/configuration/devtool/"><code>sourcemaps</code></a></li>
-          </ul>
-        </li>
-        <li>Configurable <strong>browsers versions support</strong>. It uses <a href="https://github.com/browserslist/browserslist#full-list"><code>browserslist</code></a> - just specify the browsers you want to support in the <code>package.json</code> file for <code>browserslist</code>:</li>
-      </ul>
-      <pre><code class="lang-js"><span class="hljs-string">"browserslist"</span>: [
-          <span class="hljs-string">"last 2 versions"</span>,
-          <span class="hljs-string">"&gt; 5%"</span>
-      ]
-      </code></pre>
-      <ul>
-        <li>
-          The built CSS / JavaScript files will respect the <strong>configured supported browser versions</strong> using the following tools:
-          <ul>
-            <li><a href="https://github.com/postcss/autoprefixer"><code>autoprefixer</code></a> - automatically adds vendor prefixes to CSS rules</li>
-            <li><a href="https://babeljs.io/docs/en/babel-preset-env"><code>babel-preset-env</code></a> - smart preset that allows you to use the latest JavaScript without needing to micromanage which syntax transforms (<em>and optionally, browser polyfills</em>) are needed by your target environment(s).</li>
-          </ul>
-        </li>
-        <li>
-          Demo project files to be used as a reference and <strong>example demo</strong> building of:
-          <ul>
-            <li><em>JavaScript</em></li>
-            <li><em>SASS / PostCSS</em></li>
-            <li><em>HTML</em> templates</li>
-            <li><em>Images</em> (<em>CSS backgrounds and image tags</em>)</li>
-            <li><em>Fonts</em></li>
-          </ul>
-        </li>
-        <li>
-          Support for <strong>assets optimization</strong> for production environment with ability to configure:
-          <ul>
-            <li><strong>Code Minification</strong> of <em>JavaScript</em> and <em>CSS</em> processed files.</li>
-            <li><strong>Optimize Assets Loading</strong> - inline and embed <strong>images</strong> / <strong>fonts</strong> files having file size below a <em>configurable</em> threshold value.</li>
-            <li><strong>Images Optimisation</strong> - optimize <code>jpeg</code>, <code>jpg</code>, <code>png</code>, <code>gif</code>, <code>svg</code> filesize and loading type via <a href="https://github.com/imagemin/imagemin"><code>imagemin</code></a>. Plugin and Loader for webpack to optimize (<em>compress</em>) all images using <code>imagemin</code>. Do not worry about size of images, now they are always optimized/compressed.</li>
-          </ul>
-        </li>
-        <li>
-          Support for <strong>source code syntax style and formatting linters</strong> that analyze source code to flag any programming errors, bugs, stylistic errors or suspicious constructs:
-          <ul>
-            <li><strong>SASS/PostCSS syntax cheker</strong> - you can change or add additional rules in <code>.sasslintrc</code> file. Configuration options can be found on <a href="https://github.com/sasstools/sass-lint/blob/master/lib/config/sass-lint.yml"><code>sass-lint</code></a> documentation.</li>
-            <li><strong>JavaScript syntax checker</strong> - following the <code>airbnb</code> style, you can review and configure the rules in <code>.eslintrc</code> file. Configuration options can be found on <a href="https://eslint.org/docs/user-guide/configuring"><code>eslint</code></a> documentation.</li>
-          </ul>
-        </li>
-        <li>Latest <a href="https://github.com/webpack/webpack">Webpack 5</a> - <em>JavaScript</em> module bundler.</li>
-        <li>Latest <a href="https://github.com/sass/sass">SASS/PostCSS</a> compiler based on Dart <code>sass</code>.</li>
-        <li>Latest <a href="https://github.com/babel/babel">Babel 7</a> (<code>@babel/core</code>) - JavaScript compiler - <em>Use next generation JavaScript, today.</em></li>
-        <li>
-          Integration with <a href="https://travis-ci.com/">Travis CI</a>
-          <ul>
-            <li><a href="https://weareathlon.github.io/frontend-webpack-boilerplate/">Demo deployment available to GitHub pages</a></li>
-          </ul>
-        </li>
-        <li>Configured and ready to use <strong>Webpack Dev Server</strong> plugin for faster local development - <a href="https://webpack.js.org/configuration/dev-server/"><code>webpack-dev-server</code></a></li>
-        <li>Integration with <a href="https://www.npmjs.com/package/webpack-bundle-analyzer">Webpack Bundle Analyzer</a> - <em>Visualize size of webpack output files with an interactive zoomable treemap.</em></li>
-      </ul>
-      <h2 id="requirements">Requirements</h2>
-      <ul>
-        <li><code>node</code> : <code>^12 || &gt;=14</code></li>
-        <li><code>npm</code></li>
-      </ul>
-      <h1 id="setup">Setup</h1>
-      <h2 id="installation">Installation</h2>
-      <ol>
-        <li>Choose and download the latest template release from <a href="https://github.com/WeAreAthlon/frontend-webpack-boilerplate/releases">List of Releases</a>.</li>
-        <li>Extract the release archive to a new directory, rename it to your project name and browse the directory.</li>
-        <li>Install all dependencies using <code>npm</code> <em>clean install</em> command. </li>
-      </ol>
-      <pre><code class="lang-sh">$ <span class="hljs-built_in">npm</span> ci</code></pre>
-      <blockquote>
-        <p>More on the clean install npm command can be read here <a href="https://docs.npmjs.com/cli/ci.html"><code>npm ci</code></a></p>
-        <p>You can still use <code>npm install</code> in cases the <code>npm ci</code> raises system error due to specific platform incompatibilities.</p>
-      </blockquote>
-      <h2 id="define-package-metadata">Define Package Metadata</h2>
-      <ul>
-        <li>
-          Amend <code>package.json</code> file and optionally specify:
-          <ul>
-            <li><code>name</code> - Name of your project. A name can be optionally prefixed by a scope, e.g. <code>@myorg/mypackage</code>.</li>
-            <li><code>version</code> - Specify and maintain a version number indicator for your project code.</li>
-            <li><code>author</code> - Your organisation or just yourself. You can also specify <a href="https://docs.npmjs.com/files/package.json#people-fields-author-contributors"><code>contributors</code></a>.</li>
-            <li><code>description</code> - Short description of your project.</li>
-            <li><code>keywords</code> - Put keywords in it. It’s an array of strings.</li>
-            <li><code>repository</code> - Specify the place where your code lives.</li>
-            <li><code>license</code> - Announce your code license, figure out the license from <a href="https://choosealicense.com">Choose an Open Source License</a> .</li>
-            <li><code>browserslist</code> - Specify the supported browsers versions - you can refer to <a href="https://github.com/browserslist/browserslist#full-list">full list</a> of availalbe options.</li>
-          </ul>
-        </li>
-      </ul>
-      <h1 id="configuration">Configuration</h1>
-      <h2 id="environment-configuration">Environment Configuration</h2>
-      <ul>
-        <li>
-          Edit the <a href="configuration/environment.js"><code>configuration/environment.js</code></a> if you want to specify:
-          <ul>
-            <li><strong><code>server</code></strong>: configure development server, specify <code>host</code>, <code>port</code>. Refer to the full development server configuration options for <a href="https://webpack.js.org/configuration/dev-server/"><code>webpack-dev-server</code></a>.</li>
-            <li>
-              <strong><code>limits</code></strong>: configure file size thresholds for assets optimizations.
-              <ul>
-                <li>Image/Font files size in bytes. Below this value the image file will be served as Data URL (<em>inline base64</em>).</li>
-              </ul>
-            </li>
-            <li><strong><code>paths</code></strong>: <code>src</code> or <code>dist</code> directories names and file system location.</li>
-          </ul>
-        </li>
-      </ul>
-      <h2 id="additional-webpack-configuration">Additional <code>webpack</code> configuration</h2>
-      <p>You can additionally configure <code>webpack</code> for specific environment:</p>
-      <ul>
-        <li><code>development</code> - <a href="configuration/webpack.dev.config.js"><code>configuration/webpack.dev.config.js</code></a></li>
-        <li>
-          <code>production</code> - <a href="configuration/webpack.prod.config.js"><code>configuration/webpack.prod.config.js</code></a>
-          <ul>
-            <li>
-              Note that if you prefer to build and deploy <a href="https://webpack.js.org/configuration/devtool/#production"><code>sourcemap</code></a> files:
-              <blockquote>
-                <p>You should configure your server to disallow access to the Source Map file for normal users!</p>
-              </blockquote>
-            </li>
-          </ul>
-        </li>
-      </ul>
-      <h1 id="development">Development</h1>
-      <h2 id="assets-source">Assets Source</h2>
-      <ul>
-        <li><strong>SASS/PostCSS</strong> files are located under <code>src/scss/</code></li>
-        <li><strong>JavaScript</strong> files with support of latest ECMAScript <em>ES6 / ECMAScript 2016(ES7)/ etc</em> files are located under <code>src/js/</code></li>
-        <li><strong>Image</strong> files are located under <code>src/images/</code></li>
-        <li><strong>Font</strong> files are located under <code>src/fonts/</code></li>
-        <li>
-          <strong>HTML</strong> files are located under <code>src/</code>
-          <ul>
-            <li>It will <strong>automatically</strong> build <strong>all HTML files</strong> placed under <code>src/</code> directory, no need to manually configure each template anymore!</li>
-          </ul>
-        </li>
-      </ul>
-      <h2 id="build-assets">Build Assets</h2>
-      <h3 id="one-time-build-assets-for-development">One time build assets for development</h3>
-      <pre><code class="lang-sh">$ npm <span class="hljs-keyword">run</span><span class="bash"> build</span>
-      </code></pre>
-      <h3 id="build-assets-and-enable-source-files-watcher">Build assets and enable source files watcher</h3>
-      <pre><code class="lang-sh">$ npm <span class="hljs-keyword">run</span><span class="bash"> watch</span>
-      </code></pre>
-      <p>This command is suitable if you develop with external web server.</p>
-      <blockquote>
-        <p><strong>Note:</strong> File watching does not work with <em>NFS</em> (<em>Windows</em>) and virtual machines under <em>VirtualBox</em>. Extend the configuration in such cases by:</p>
-      </blockquote>
-      <pre><code class="lang-js">module.exports = {
-        <span class="hljs-comment">//...</span>
-      <span class="hljs-symbol">  watchOptions:</span> {
-      <span class="hljs-symbol">    poll:</span> <span class="hljs-number">1000</span> <span class="hljs-comment">// Check for changes every second</span>
-        }
-      };
-      </code></pre>
-      <h3 id="start-a-development-server-reloading-automatically-after-each-file-change-">Start a development server - reloading automatically after each file change.</h3>
-      <pre><code class="lang-sh">$ npm <span class="hljs-keyword">run</span><span class="bash"> dev</span>
-      </code></pre>
-      <h1 id="production">Production</h1>
-      <h2 id="build-assets-1">Assets Building</h2>
-      <p>Optimize assets for production by:</p>
-      <pre><code class="lang-sh">$ npm <span class="hljs-keyword">run</span><span class="bash"> production</span>
-      </code></pre>
-      <h2 id="get-built-assets">Get Built Assets</h2>
-      <ul>
-        <li><em>CSS</em> files are located under <code>/dist/css/</code></li>
-        <li><em>JavaScript</em> files with support of <em>ES6 / ECMAScript 2016(ES7)</em> files are located under <code>/dist/js/</code></li>
-        <li>
-          <em>Images</em> are located under <code>/dist/images/</code>
-          <ul>
-            <li>Images part of the <em>design</em> (<em>usually referenced in the CSS</em>) are located under <code>/dist/images/design/</code></li>
-            <li>Images part of the <em>content</em> (<em>usually referenced via <code>&lt;img&gt;</code> tags</em>) are located under <code>/dist/images/content/</code></li>
-          </ul>
-        </li>
-        <li><em>Fonts</em> are located under <code>/dist/fonts/</code></li>
-        <li><em>HTML</em> files are located under <code>/dist/</code></li>
-      </ul>
-      <h1 id="run-code-style-linters">Run Code Style Linters</h1>
-      <h2 id="sass">SASS</h2>
-      <pre><code class="lang-sh">$ npm <span class="hljs-keyword">run</span><span class="bash"> lint:sass</span></code></pre>
-      <h2 id="javascript">JavaScript</h2>
-      <pre><code class="lang-sh">$ npm <span class="hljs-keyword">run</span><span class="bash"> lint:js</span></code></pre>
-      <h1 id="additional-tools">Additional Tools</h1>
-      <h2 id="run-assets-bundle-analyzer">Run Assets Bundle Analyzer</h2>
-      <pre><code class="lang-sh">$ npm <span class="hljs-keyword">run</span><span class="bash"> stats</span></code></pre>
-      <blockquote>
-        <p>This will open the visualisaion on the default configuraiton URL <code>localhost:8888</code>, you can change this URL or port following the <a href="https://github.com/webpack-contrib/webpack-bundle-analyzer#options-for-cli">package</a> documentation.</p>
-      </blockquote>
-      <h2 id="continuous-integration">Continuous Integration</h2>
-      <p>This boilerplate template contains integration with <a href="https://travis-ci.org/">Travis CI</a>. The build system runs all linting scripts and deploys production optimized pages to <em>GitHub</em> pages upon push to the <code>master</code> branch. However, note that this deployment flow only works for <em>Project Pages</em>, as User and Organization pages <a href="https://help.github.com/articles/user-organization-and-project-pages/">only support the master branch flow</a>.</p>
-      <p>For more information on how to set up alternative deployment processes, check out the <a href="https://docs.travis-ci.com/user/deployment">Travis CI documentation on deployment</a>. The service can deploy to dozens of cloud providers, including Heroku, AWS, and Firebase.</p>
-    </main>
-    <footer>
-      <address>Documentation avaialable on the official <a href="https://github.com/WeAreAthlon/frontend-webpack-boilerplate/" target="_blank" rel="noopener">GitHub Repository</a>.</address>
-      <address>Maintained by <a href="https://www.weareathlon.com/" target="_blank" rel="noopener">WeAreAthlon</a>.</address>
-    </footer>
-  </body>
+    <section class="why-us">
+        <div class="why-us_1container">
+          <header class="why-us_1header">
+            <h2 class="why-us-title">
+              WHY CHOOSE US
+            </h2>
+            <p>
+              Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics 
+            </p>
+          </header>
+        
+          <div class="why-us_boxes">
+            <div class="why-us_box-item">
+            <div class="item-1header">
+              <div class="item-1header_svg-image">
+                  <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_97)">
+                    <g clip-path="url(#clip1_1_97)">
+                    <path d="M24.8406 22.8022C29.1448 22.8022 32.4925 19.3069 32.4925 15.0171C32.4925 10.7273 28.9854 7.39087 24.6812 7.39087C20.377 7.39087 17.0293 10.8862 17.0293 15.0171C17.0293 19.3069 20.5364 22.8022 24.8406 22.8022ZM24.6812 10.5685C24.8406 10.5685 24.8406 10.5685 24.6812 10.5685C27.2318 10.5685 29.3042 12.6339 29.3042 15.176C29.3042 17.7181 27.2318 19.6246 24.6812 19.6246C22.1305 19.6246 20.2176 17.5592 20.2176 15.176C20.2176 12.6339 22.2899 10.5685 24.6812 10.5685Z" fill="#00A0C1"/>
+                    <path d="M48.4339 21.8487C45.405 19.1477 41.4197 17.7178 37.2749 17.8767H35.9996C35.6808 19.1477 35.2025 20.2599 34.5648 21.2132C35.5213 21.0543 36.3184 21.0543 37.2749 21.0543C40.3038 20.8954 43.3327 21.8487 45.7239 23.5964V35.0357H48.9122V22.3253L48.4339 21.8487Z" fill="#00A0C1"/>
+                    <path d="M33.6084 7.70814C34.4055 5.80158 36.6373 4.8483 38.7097 5.6427C40.6226 6.4371 41.5791 8.66141 40.782 10.7269C40.1444 12.1568 38.7097 13.1101 37.2749 13.1101C36.9561 13.1101 36.4779 13.1101 36.159 12.9512C36.3184 13.7456 36.3184 14.54 36.3184 15.1755V16.1288C36.6373 16.1288 36.9561 16.2876 37.2749 16.2876C41.2603 16.2876 44.4486 13.1101 44.4486 9.29693C44.4486 5.32494 41.2603 2.14734 37.4343 2.14734C34.8837 2.14734 32.6519 3.41838 31.3766 5.6427C32.1737 6.11934 32.9707 6.75486 33.6084 7.70814Z" fill="#00A0C1"/>
+                    <path d="M15.4351 21.3721C14.7975 20.4189 14.3192 19.3067 14.0004 18.0357H12.7251C8.58031 17.8768 4.59495 19.3067 1.56607 21.8488L1.08783 22.3254V35.0358H4.27612V23.5965C6.82675 21.8488 9.69621 20.8955 12.7251 21.0544C13.6816 21.0544 14.6381 21.2133 15.4351 21.3721Z" fill="#00A0C1"/>
+                    <path d="M12.7251 16.1294C13.044 16.1294 13.3628 16.1294 13.6816 15.9705V15.0172C13.6816 14.2228 13.6816 13.4284 13.841 12.7929C13.5222 12.9518 13.044 12.9518 12.7251 12.9518C10.6527 12.9518 8.89917 11.2041 8.89917 9.13868C8.89917 7.07324 10.6527 5.32556 12.7251 5.32556C14.3193 5.32556 15.754 6.27884 16.3917 7.70876C17.0293 6.91436 17.9858 6.11996 18.7829 5.48444C16.7105 2.14796 12.4063 1.0358 9.05859 3.10124C5.71088 5.16668 4.59498 9.45644 6.66737 12.7929C7.94269 14.8584 10.1745 16.1294 12.7251 16.1294Z" fill="#00A0C1"/>
+                    <path d="M37.9126 31.3816L37.5938 30.905C34.4055 27.4096 29.9419 25.3442 25.1594 25.5031C20.377 25.3442 15.754 27.4096 12.5657 30.905L12.2469 31.3816V43.4565C12.2469 44.8864 13.3628 46.1574 14.9569 46.1574H35.362C36.7967 46.1574 38.072 44.8864 38.072 43.4565V31.3816H37.9126ZM34.7243 42.9798H15.4351V32.4938C17.9858 29.9517 21.4929 28.6807 25.1594 28.6807C28.6666 28.5218 32.1737 29.9517 34.7243 32.4938V42.9798Z" fill="#00A0C1"/>
+                    </g>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_1_97">
+                    <rect width="48" height="48" fill="white" transform="translate(0.5)"/>
+                    </clipPath>
+                    <clipPath id="clip1_1_97">
+                    <rect width="48" height="44.2105" fill="white" transform="translate(1 2)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>      
+              </div>
+              <h2 class="item-1header_text">
+                3K
+              </h2>
+              <h5 class="item-1header_dscrp">
+                CASES DONE
+              </h5>
+            </div>
+          </div>
+                            
+
+          <div class="why-us_box-item">
+            <div class="item-1header">
+              <div class="item-1header_svg-image">
+                <svg width="48" height="48" viewBox="0 0 48 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M43.1502 12.2822C42.5747 12.2864 42.0047 12.3962 41.4674 12.6064L35.7271 7.82167C35.8684 7.30005 35.9689 6.75894 35.9689 6.18858C35.9689 2.81028 33.3022 0.0949707 29.9844 0.0949707C26.6667 0.0949707 24 2.81028 24 6.18858C24 7.15381 24.2394 8.05323 24.6272 8.86246L17.6636 17.2424C17.3849 17.1893 17.1022 17.1607 16.8186 17.1571C16.3902 17.1571 15.9856 17.2302 15.593 17.3374L9.45776 11.0903C9.56548 10.693 9.63729 10.281 9.63729 9.84475C9.63729 7.14406 7.50204 4.96986 4.84973 4.96986C2.19742 4.96986 0.0621643 7.14406 0.0621643 9.84475C0.0621643 12.5454 2.19742 14.7196 4.84973 14.7196C5.27822 14.7196 5.68277 14.6465 6.07535 14.5393L12.2106 20.7864C12.0955 21.1914 12.0351 21.6104 12.0311 22.032C12.0311 24.7327 14.1663 26.9069 16.8186 26.9069C19.471 26.9069 21.6062 24.7327 21.6062 22.032C21.6062 21.4543 21.4913 20.9107 21.3118 20.3964L28.2849 12.0068C28.8282 12.1676 29.3908 12.2822 29.9844 12.2822C30.9291 12.2769 31.8589 12.0421 32.6966 11.5973L38.4393 16.382C38.3942 16.638 38.3686 16.8971 38.3627 17.1571C38.3627 19.8578 40.4979 22.032 43.1502 22.032C45.8026 22.032 47.9378 19.8578 47.9378 17.1571C47.9378 14.4564 45.8026 12.2822 43.1502 12.2822Z" fill="#00A0C1"/>
+                  </svg>   
+              </div>
+              <h2 class="item-1header_text">
+                45
+              </h2>
+              <h5 class="item-1header_dscrp">
+                HAPPY CUSTOMERS
+              </h5>
+            </div>
+          </div>
+          <div class="why-us_box-item">
+            <div class="item-1header">
+              <div class="item-1header_svg-image">
+                <svg width="36" height="48" viewBox="0 0 36 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.06414 33.9949C8.25307 33.1802 8.67587 33.4099 6.71961 32.8839C5.83201 32.6449 5.05174 32.1855 4.34614 31.6352L0.111605 42.0639C-0.298129 43.0736 0.467205 44.1705 1.55174 44.1292L6.46947 43.9408L9.85187 47.5296C10.5985 48.3208 11.9089 48.0742 12.3187 47.0646L17.1767 35.1002C16.1649 35.6664 15.0421 35.9983 13.8811 35.9983C12.0611 35.9983 10.3512 35.2867 9.06414 33.9949ZM35.7276 42.0639L31.4931 31.6352C30.7875 32.1864 30.0072 32.6449 29.1196 32.8839C27.1531 33.4127 27.5843 33.1821 26.7751 33.9949C25.488 35.2867 23.7772 35.9983 21.9572 35.9983C20.7961 35.9983 19.6733 35.6655 18.6616 35.1002L23.5196 47.0646C23.9293 48.0742 25.2407 48.3208 25.9864 47.5296L29.3697 43.9408L34.2875 44.1292C35.372 44.1705 36.1373 43.0727 35.7276 42.0639ZM24.5463 31.8733C25.9724 30.4155 26.1357 30.5411 28.1667 29.9852C29.4631 29.6299 30.4767 28.5939 30.8239 27.2683C31.522 24.6058 31.3409 24.9274 33.2459 22.9792C34.1951 22.0089 34.5656 20.5942 34.2184 19.2686C33.5212 16.608 33.5203 16.9792 34.2184 14.3158C34.5656 12.9902 34.1951 11.5755 33.2459 10.6052C31.3409 8.65706 31.522 8.97769 30.8239 6.31613C30.4767 4.9905 29.4631 3.95456 28.1667 3.59925C25.5645 2.88581 25.8781 3.07238 23.9713 1.12331C23.0221 0.153002 21.638 -0.226685 20.3416 0.128627C17.7404 0.841127 18.1035 0.842064 15.4976 0.128627C14.2012 -0.226685 12.8171 0.152065 11.8679 1.12331C9.96294 3.07144 10.2765 2.88581 7.67347 3.59925C6.37707 3.95456 5.36347 4.9905 5.01627 6.31613C4.31907 8.97769 4.49921 8.65706 2.59427 10.6052C1.64507 11.5755 1.2736 12.9902 1.62174 14.3158C2.31894 16.9746 2.31987 16.6033 1.62174 19.2677C1.27454 20.5933 1.64507 22.008 2.59427 22.9792C4.49921 24.9274 4.31814 24.6058 5.01627 27.2683C5.36347 28.5939 6.37707 29.6299 7.67347 29.9852C9.76227 30.5571 9.91814 30.4671 11.2929 31.8733C12.5277 33.1361 14.4513 33.3621 15.9353 32.4189C16.5288 32.0405 17.2172 31.8396 17.9201 31.8396C18.623 31.8396 19.3114 32.0405 19.9048 32.4189C21.3879 33.3621 23.3115 33.1361 24.5463 31.8733ZM9.11454 16.4946C9.11454 11.523 13.0569 7.49269 17.9196 7.49269C22.7823 7.49269 26.7247 11.523 26.7247 16.4946C26.7247 21.4661 22.7823 25.4964 17.9196 25.4964C13.0569 25.4964 9.11454 21.4661 9.11454 16.4946Z" fill="#00A0C1"/>
+                  </svg>  
+              </div>
+              <h2 class="item-1header_text">
+                12+
+              </h2>
+              <h5 class="item-1header_dscrp">
+                AWARD WINNING
+              </h5>
+            </div>
+          </div>
+          <div class="why-us_box-item">
+            <div class="item-1header">
+              <div class="item-1header_svg-image">
+                <svg width="48" height="48" viewBox="0 0 48 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M42.5886 8.52529H37.519V3.45567C37.519 2.55931 37.1629 1.69966 36.5291 1.06583C35.8952 0.432007 35.0356 0.0759277 34.1392 0.0759277H13.8608C12.9644 0.0759277 12.1047 0.432007 11.4709 1.06583C10.8371 1.69966 10.481 2.55931 10.481 3.45567V8.52529H5.41139C4.06684 8.52529 2.77736 9.05941 1.82662 10.0102C0.875886 10.9609 0.341766 12.2504 0.341766 13.5949V37.2531C0.341766 38.1495 0.697846 39.0092 1.33167 39.643C1.9655 40.2768 2.82515 40.6329 3.72151 40.6329H44.2785C45.1748 40.6329 46.0345 40.2768 46.6683 39.643C47.3021 39.0092 47.6582 38.1495 47.6582 37.2531V13.5949C47.6582 12.2504 47.1241 10.9609 46.1734 10.0102C45.2226 9.05941 43.9331 8.52529 42.5886 8.52529ZM13.8608 3.45567H34.1392V8.52529H13.8608V3.45567ZM44.2785 37.2531H3.72151V22.0443H17.2405V30.4936H30.7595V22.0443H44.2785V37.2531ZM20.6202 22.0443H27.3797V27.1139H20.6202V22.0443ZM3.72151 18.6645V13.5949C3.72151 13.1467 3.89955 12.7169 4.21647 12.4C4.53338 12.0831 4.9632 11.905 5.41139 11.905H42.5886C43.0368 11.905 43.4666 12.0831 43.7835 12.4C44.1004 12.7169 44.2785 13.1467 44.2785 13.5949V18.6645H3.72151Z" fill="#00A0C1"/>
+                  </svg>
+            </div>
+            <h2 class="item-1header_text">
+              1.5K
+            </h2>
+            <h5 class="item-1header_dscrp">
+              CASES DONE
+            </h5>
+          </div>
+         </div>
+        </div>
+      </div>
+    </sections>
+</body>
 </html>
